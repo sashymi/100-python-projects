@@ -54,7 +54,7 @@ def main():
     while True:
         number = getnum()
         largestnum = comparenum(number, storednum)
-        storednum = number
+        storednum = largestnum
         repeat = input("Do you wish to enter another number? (Y/N): ")
         if repeat == "Y":
             output(largestnum)
